@@ -6,7 +6,7 @@
     <div style="text-align:center">
       <h1>{{title}}</h1>
     </div>
-    <input class="new-todo" placeholder="Entrez votre tache" autofocus="" [(ngModel)]="newTodo.title" (keyup.enter)="addTodo()">
+    <input class="new-todo" placeholder="Entrez une tache" autofocus="" [(ngModel)]="newTodo.title" (keyup.enter)="addTodo()">
     <button class="create" (click)="addTodo()"> + Créer</button>
   </div>
 </header>
