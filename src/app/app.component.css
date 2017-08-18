@@ -1,0 +1,49 @@
+h1 {
+    font-family: Arial;
+}
+
+header {
+    background: #ececec;
+    padding: 20px 0px;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.new-todo {
+    width:250px;
+    height: 30px;
+    margin:0 auto;
+    display: block;
+    text-indent: 10px;
+}
+
+.create {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.noItems {
+    color: #7b7b7b;
+    text-align: center;
+    margin-top: 20px;
+}
+.todos ul{
+    padding:0px;
+    margin: 0px;
+}
+.todos li{
+    list-style-type: none;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.todos li.complete {
+    opacity:.5;
+}
+.todos li label{ 
+    cursor: pointer;
+}
